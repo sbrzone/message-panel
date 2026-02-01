@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SYSTEM_CORE v5.2 - SECURE CHANNEL</title>
+    <title>SYSTEM_CORE v5.2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -29,7 +29,7 @@
         <!-- Main Input Area -->
         <div class="typer-wrapper">
             <textarea id="hackerTyper" placeholder="ENTER ENCRYPTED_MESSAGE... (AUTO_MASKED)"></textarea>
-            <div class="char-counter" id="charCounter">CHARS: 0/2048</div>
+            <div class="char-counter" id="charCounter">CHARS: 0/4000</div>
         </div>
         
         <!-- File Preview -->
@@ -52,7 +52,7 @@
             </button>
             
             <button id="sendBtn" onclick="sendToTelegram()" class="hacker-btn execute">
-                <i class="fas fa-paper-plane"></i> EXECUTE_TRANSMIT
+                <i class="fas fa-paper-plane"></i> EXECUTE_DATA
             </button>
         </div>
 
@@ -79,7 +79,7 @@
         </div>
         <div class="panel-content">
             <div class="log-line" id="scanStatus">
-                <span class="log-time">[12:34:56]</span> SCANNING_PORT:443...
+                <span class="log-time">[12:34:56]</span> SCANNING_PORT:503...
             </div>
             <div class="config-display" id="configDisplay">
                 <!-- Fake config will be injected here -->
@@ -88,7 +88,7 @@
                 <div class="metric">
                     <span class="metric-label">CPU:</span>
                     <div class="metric-bar"><div class="metric-fill" id="cpuMetric"></div></div>
-                    <span class="metric-value" id="cpuValue">87%</span>
+                    <span class="metric-value" id="cpuValue">96%</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">RAM:</span>
@@ -98,7 +98,7 @@
                 <div class="metric">
                     <span class="metric-label">NET:</span>
                     <div class="metric-bar"><div class="metric-fill" id="netMetric"></div></div>
-                    <span class="metric-value" id="netValue">2.4MB/s</span>
+                    <span class="metric-value" id="netValue">5.7MB/s</span>
                 </div>
             </div>
         </div>
